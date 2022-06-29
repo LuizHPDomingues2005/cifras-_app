@@ -6,7 +6,7 @@ import Login from "./Paginas/Login/Login";
 import Artista from "./Components/Artistas/Artista";
 import Cifra from "./Components/Cifras/Cifra";
 import Genero from "./Components/Generos/Genero";
-import Musica from "./Components/Musicas/Musica";
+import MusicaLetra from "./Components/Musicas/MusicaLetra";
 import Main from './Components/Template/Main';
 
 export default function Rotas(){
@@ -31,7 +31,7 @@ export default function Rotas(){
             <Route path='/cantor' element={<Artista />} />
             <Route path='/cifra'  element={<Cifra />} />
             <Route path='/genero' element={<Genero />} />
-            <Route path='/musica' element={<Musica />} />
+            <Route path='/musica' element={<MusicaLetra />} />
             <Route path='/' element={<Artista />} />
             
             <Route path="*" to='/' />

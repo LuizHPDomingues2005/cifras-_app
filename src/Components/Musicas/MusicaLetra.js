@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './Musica.css';
+import './MusicaLetra.css';
 import Main from '../Template/Main';
 import Lupa from '../../Assets/Template/lupa.png'
 import Header from '../Template/Header';
 
-const title = "Encontre sua Música";
+const title = "Sua letra está aqui!";
 
-const urlAPI = "http://localhost:5001/api/musica";
+const urlAPI = "http://localhost:5001/api/cifra/idCifra";
 const initialState = {
     artista: { idCantor: 0, nomeCantor: '', qtdDeCifras: 0 },
     lista: [],
@@ -48,7 +48,7 @@ export default class Artista extends Component {
         this.setState({ artista })
     }
 
-    pesquisar() {
+    /*pesquisar() {
         this.setState({ pesquisa: this.state.valorPesquisa })
     }
 
@@ -59,11 +59,11 @@ export default class Artista extends Component {
                 <img src={Lupa} className="btn" onClick={() => this.pesquisar()}></img>
             </div>
         )
-    }
+    }*/
 
     renderTable() {
         return (
-            <div className="tituloListagem">
+            /*<div className="tituloListagem">
                 <table className="listaCantor" id="tblListaCantor">
                     <thead>
                         <tr className="cabecTabela">
@@ -82,15 +82,15 @@ export default class Artista extends Component {
                         )}
                     </tbody>
                 </table>
-            </div>
+            </div>*/
+            <div className="divGenerica"></div>
         )
     }
 
     render() {
         return (
             <div className="conteudo">
-                <Main title={title}>
-                    {this.renderPesquisa()}
+                <Main >
                     {this.renderTable()}
                 </Main>
             </div>

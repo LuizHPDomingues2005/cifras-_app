@@ -8,7 +8,7 @@ import Header from '../Template/Header';
 
 const title = "Encontre sua Cifra";
 
-const urlAPI = "http://localhost:5001/api/cifra";
+const urlAPI = "http://localhost:5001/api/cifra/getall";
 const initialState = {
     cifra: { idCifra: 0, idCantor: 0, idGenero: 0, nomeMusica: '', letraEAcordes: '' },
     lista: [],
@@ -56,7 +56,7 @@ export default class Cifra extends Component {
     renderPesquisa(props) {
         return (
             <div className="caixa">
-                <input type="search" value={this.state.valorPesquisa} onChange={(evento) => this.setState({ valorPesquisa: evento.target.value })} id="texto" placeholder='Pesquisar'></input>
+                <input type="search" value={this.state.valorPesquisa} onChange={(evento) => this.setState({ valorPesquisa: evento.target.value })} id="texto" placeholder='Pesquise o nome da música'></input>
                 <img src={Lupa} className="btn" onClick={() => this.pesquisar()}></img>
             </div>
         )

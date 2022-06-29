@@ -7,7 +7,7 @@ import Header from '../Template/Header';
 
 const title = "Encontre seu Gênero";
 
-const urlAPI = "http://localhost:5001/api/genero";
+const urlAPI = "http://localhost:5001/api/genero/getall";
 const initialState = {
     genero: { idGenero: 0, nomeGenero: '', qtdDeCifras: 0 },
     lista: [],

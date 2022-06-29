@@ -4,10 +4,11 @@ import './Artista.css';
 import Main from '../Template/Main';
 import Lupa from '../../Assets/Template/lupa.png'
 import Header from '../Template/Header';
+import { Link } from 'react-router-dom';
 
 const title = "Encontre seu Artista";
 
-const urlAPI = "http://localhost:5001/api/cantor";
+const urlAPI = "http://localhost:5001/api/cantor/getall";
 const initialState = {
     artista: { idCantor: 0, nomeCantor: '', qtdDeCifras: 0 },
     lista: [],

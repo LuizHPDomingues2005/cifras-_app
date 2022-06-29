@@ -1,4 +1,4 @@
-div.content{
+/*div.content{
     width: 83%;
     height: 80%;
     margin: auto;
@@ -43,7 +43,7 @@ div > input {
     margin-left: 10px;
 }
 
-/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 
 
 
 .tituloListagem {
@@ -127,5 +127,13 @@ input[type=number] {
 }
     label {
     padding: 10px;
+}*/
+
+.divGenerica {
+    background-color: lightblue;
+    /*margin-top: 40%;*/
+    margin: auto;
+    width: 70%;
+    height: 100vh;
 }
 
