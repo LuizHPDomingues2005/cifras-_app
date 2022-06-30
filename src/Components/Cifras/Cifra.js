@@ -69,7 +69,6 @@ export default class Cifra extends Component {
                     <thead>
                         <tr className="cabecTabela">
                             <th className="tabTituloCantor">Nome da Música</th>
-                            <th className="tabTituloqtd">Letras e Acordes</th>
                         </tr>
                     </thead>
 
@@ -78,7 +77,6 @@ export default class Cifra extends Component {
                             (cifra) =>
                                 <tr key={cifra.idCifra}>
                                     <td><Link to="/Musica">{cifra.nomeMusica}</Link></td>
-                                    <td>{cifra.letraEAcordes}</td>
                                 </tr>
                         )}
                     </tbody>

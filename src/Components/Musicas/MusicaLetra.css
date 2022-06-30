@@ -129,9 +129,9 @@ input[type=number] {
     padding: 10px;
 }*/
 
-.divGenerica {
+.conteudo table {
     background-color: lightblue;
-    /*margin-top: 40%;*/
+    margin-top: 40%;
     margin: auto;
     width: 70%;
     height: 100vh;
