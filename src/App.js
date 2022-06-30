@@ -11,12 +11,6 @@ import ConteudoPrincipal from './Components/Template/ConteudoPrincipal';
 
 export default function App() {
   return (
-    // <Router >
-    //   <Route path='/' component={<Template/>}>
-    //     <Route path='/artista' component={<Artista/>}/>
-    //     <Route path='*' component={<Footer/>}/>
-    //   </Route>
-    // </Router>
     <BrowserRouter>
       <div className="App">
         <Logo />
@@ -30,8 +24,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
-
-/*<form action="#" method="post">
-            <input type="text" name="serach" id="serach" placeholder="Faça sua Busca" required></input>
-            <button type="submit"><i class="fas fa-search"></i></button>
-          </form>*/ 

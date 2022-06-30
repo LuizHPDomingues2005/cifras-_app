@@ -47,7 +47,7 @@ nav.menu{
   background-color: darkslateblue;
 }
 
-.amendoim {
+.main {
   margin-top: 37%;
   margin-left: 18%;
 }
@@ -57,7 +57,32 @@ nav.menu{
 }
 
 .titulo {
-  margin-left: 340px;
-  font-family: sans-serif;
+  margin-top: 18%;
+  margin-left: 330px;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
 }
 
+.vazio > .caixa {
+  width: 1300px;
+  height: 500px;
+}
+
+.caixa > .tabela {
+  border: 1px;
+  width: 300px;
+  height: 20px;
+}
+
+table {
+  margin: auto;
+  background-color: lightyellow;
+  width: 500px;
+  height: 50px;
+}
+
+.colaboradores {
+  font-family: sans-serif;
+  margin: auto;
+  height: 20vh;
+}

@@ -15,12 +15,48 @@ export default function Rotas(){
             <Route exact path='/' 
                 element={
                     <Main>
-                        <div className="amendoim">
+                        <div className="main">
                             <h1 className="titulo">Bem Vindo!</h1>
-                            <h2 className="frase">Este é um site para você acessar a suas músicas, cifras, cantores e muito mais</h2>
+                            <h2 className="frase">Este é um site para você acessar a suas músicas, cifras e cantores favoritos</h2>
                         </div>
                         <div className="vazio">
-                            <div></div>
+                            <div className="caixa">
+                              <table border="1">
+                                  <tr >
+                                      <th>Artistas</th>
+                                      <th>Gêneros</th>
+                                  </tr>
+
+                                  <tr >
+                                      <td>Latino-Americano</td>
+                                      <td>Sertanejo</td>
+                                  </tr>
+
+                                  <tr >
+                                      <td>Norte-Americano</td>
+                                      <td>Blues</td>
+                                  </tr>
+
+                                  <tr >
+                                      <td>Europeu</td>
+                                      <td>Rock</td>
+                                  </tr>
+
+                                  <tr >
+                                      <td>Latino-Americano</td>
+                                      <td>Samba</td>
+                                  </tr>
+
+                                  <tr >
+                                      <td>Latino-Americano</td>
+                                      <td>Forró</td>
+                                  </tr>
+                              </table>
+                            </div>
+                            <div className="colaboradores">
+                                  <h1>Colaboradores:</h1>
+                                <h2>Talita Barbosa / Luiz Parolim</h2>
+                              </div>
                         </div>
                     </Main>
                 }/>

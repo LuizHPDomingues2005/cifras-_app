@@ -76,7 +76,7 @@ export default class Cifra extends Component {
                     {this.state.lista.filter((a) => a.nomeMusica.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().startsWith(this.state.pesquisa.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase())).map(
                             (cifra) =>
                                 <tr key={cifra.idCifra}>
-                                    <td><Link to="/Musica">{cifra.nomeMusica}</Link></td>
+                                    <td><Link to="/Musica">{cifra.nomeMusica}</Link></td> 
                                 </tr>
                         )}
                     </tbody>

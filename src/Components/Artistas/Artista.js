@@ -3,8 +3,8 @@ import axios from 'axios';
 import './Artista.css';
 import Main from '../Template/Main';
 import Lupa from '../../Assets/Template/lupa.png'
-import Header from '../Template/Header';
-import { Link } from 'react-router-dom';
+//import Header from '../Template/Header';
+//import { Link } from 'react-router-dom';
 
 const title = "Encontre seu Artista";
 
